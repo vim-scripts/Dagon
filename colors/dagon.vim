@@ -1,6 +1,7 @@
 " Vim color file
 " Name: Dagon
 " Author: Dee Sub Wun
+" Last change: 10th April 2011
 
 
 set background=dark
@@ -67,6 +68,8 @@ hi Error            gui=bold              guifg=#FFFFFF         guibg=#FF0000
 
 hi Todo             gui=NONE              guifg=#FFFF00         guibg=NONE
 
+hi SignColumn		gui=NONE			  guifg=NONE			guibg=NONE
+
 
 """"""
 " INTERFACE
@@ -86,23 +89,23 @@ hi Question         gui=NONE              guifg=#D9D9DE         guibg=NONE
 hi SpecialKey       gui=NONE              guifg=#D9D9DE         guibg=NONE
 hi Title            gui=NONE              guifg=#E6AC43         guibg=NONE
 hi VertSplit        gui=NONE	          guifg=#003399	        guibg=#003399
-hi WarningMsg       gui=NONE              guifg=#FFCD22         guibg=NONE
+hi WarningMsg       gui=NONE              guifg=#FFA500         guibg=NONE
 hi WildMenu         gui=NONE              guifg=#FFFFFF         guibg=#3A3A3F
 
 
 """"""
 " TABS
 """"""""""""""""""""""""
-hi TabLine          gui=bold,reverse      guifg=#000000	        guibg=#485359
-hi TabLineFill      gui=bold,reverse      guifg=#000000	        guibg=#485359
-hi TabLineSel       gui=bold,reverse      guifg=#000000	        guibg=#485359
+hi TabLine          gui=italic,reverse    guifg=#001540	        guibg=#003399
+hi TabLineFill      gui=italic,reverse    guifg=#001540	        guibg=#003399
+hi TabLineSel       gui=bold,reverse      guifg=#003399	        guibg=#FFFFFF
 
 
 """"""
 " STATUS
 """"""""""""""""""""""""
 hi StatusLine       gui=NONE		      guifg=#FFFFFF         guibg=#003399
-hi StatusLineNC     gui=NONE		 	  guifg=#001540	        guibg=#003399
+hi StatusLineNC     gui=italic		 	  guifg=#001540	        guibg=#003399
 
 
 """"""
@@ -133,8 +136,8 @@ hi FoldColumn       gui=NONE              guifg=#ADCAD9         guibg=#000C26
 """"""
 " VISUAL
 """"""""""""""""""""""""
-hi Visual           gui=NONE              guifg=#E6E6E6         guibg=#595964
-hi VisualNOS        gui=NONE              guifg=#E6E6E6         guibg=#595964
+hi Visual           gui=NONE              guifg=#E6E6E6         guibg=#515166
+hi VisualNOS        gui=NONE              guifg=#E6E6E6         guibg=#515166
 
 
 """"""
